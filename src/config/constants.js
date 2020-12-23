@@ -51,7 +51,7 @@ module.exports = function() {
 				'host' : process.env.DB_PRD_HOST,
 				'user' : process.env.DB_PRD_USER,
 				'password' : process.env.DB_PRD_PASS,
-				'database' : 'dellstore2'
+				'database' : 'postgres'
 			},
 			'development' : {
 				'host' : 'database-1.cecrflsdzeqv.us-east-1.rds.amazonaws.com',
